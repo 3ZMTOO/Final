@@ -283,5 +283,33 @@ namespace Final
                 DGV_Patient.DataSource = ds.Tables[0];
             }
         }
+
+        private void Doctor_Click(object sender, EventArgs e)
+        {
+            Form2 obj = new Form2();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void Home_Click(object sender, EventArgs e)
+        {
+            Form4 obj =new Form4();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void Logout_Click(object sender, EventArgs e)
+        {
+            Form3 obj = new Form3();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void Rece_Click(object sender, EventArgs e)
+        {
+            Form1 obj = new Form1();
+            obj.Show();
+            this.Hide();
+        }
     }
 }

@@ -249,5 +249,38 @@ namespace Final
         {
 
         }
+
+        private void Phone_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            Patient obj = new Patient();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            Form2 obj = new Form2();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            Form1 obj = new Form1();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            Form3 obj = new Form3();
+            obj.Show();
+            this.Hide();
+        }
     }
 }

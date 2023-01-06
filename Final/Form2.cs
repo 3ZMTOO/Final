@@ -245,9 +245,34 @@ namespace Final
         {
 
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Form2 obj = new Form2();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void label2_Click_1(object sender, EventArgs e)
+        {
+            Form1 obj = new Form1();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            Form3 obj = new Form3();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void label1_Click_2(object sender, EventArgs e)
+        {
+            Patient obj = new Patient();
+            obj.Show();
+            this.Hide();
+        }
     }
-
-
-
-
-}
+ }
+    
