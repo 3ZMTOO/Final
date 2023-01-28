@@ -36,7 +36,19 @@ namespace Final
             
         }
         public static string role;
-        private void login_Click(object sender, EventArgs e)
+     
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void login_Click_1(object sender, EventArgs e)
         {
             string conStr = ConfigurationManager.ConnectionStrings["db"].ToString();
 
@@ -120,6 +132,36 @@ namespace Final
                     }
                 }
             }
+        }
+
+        private void guna2ToggleSwitch2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void rolecb_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pass_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

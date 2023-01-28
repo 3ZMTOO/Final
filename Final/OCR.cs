@@ -47,5 +47,10 @@ namespace Final
 
            
         }
+
+        private void OCR_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
